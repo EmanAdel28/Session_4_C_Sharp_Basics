@@ -418,13 +418,13 @@ namespace Assignment_Session_4_C__Basics
             //int[] Numbers = new int[5];
 
             //int[] Numbers = new int[5] { 1, 2, 3, 4, 5 }; ;
-           
+
             //Console.WriteLine("Enter Elements of Array");
 
             //for (int i = 0; i < Numbers.Length; i++) {
-                
+
             //        Numbers[i] = int.Parse(Console.ReadLine());
-                
+
             //        }
 
             //int Max = Numbers.Max();
@@ -438,6 +438,30 @@ namespace Assignment_Session_4_C__Basics
             //Console.WriteLine(Min);
 
 
+            #endregion
+
+            #region Q16
+            //16- Write a program in C# Sharp to find the second largest element in an array.
+
+            //int[] Number = { 10, 30, 40, 15 };
+            //int largest = int.MinValue;
+            //int SecondLargest = int.MinValue;
+
+            //foreach (int num in Number)
+            //{
+            //    if (num > largest)
+            //    {
+            //        SecondLargest =  largest;
+            //        ;  // The current largest becomes the second largest
+            //        largest = num;            // Update the largest
+            //    }
+            //    else if (num > SecondLargest && num != largest)
+            //    {
+            //        SecondLargest = num;      // Update the second largest
+            //    }
+            //}
+            //Console.WriteLine($"The largest element is: {largest}");
+            //Console.WriteLine($"The second largest element is: {SecondLargest}");
             #endregion
 
 
