@@ -23,30 +23,52 @@
             #endregion
 
             #region For - Foreach
-            int[] Numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 , 10 };
+            //int[] Numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 , 10 };
 
-            for (int i = 0; i < Numbers.Length; i++)
-            {
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{
 
-                //if (Numbers[i] == 5)
-                //{
-                //    break;
-                //}
+            //    //if (Numbers[i] == 5)
+            //    //{
+            //    //    break;
+            //    //}
 
-                if (Numbers[i] == 5)
-                {
-                    continue;
-                }
-                Console.WriteLine(Numbers[i]);
-            }
+            //    if (Numbers[i] == 5)
+            //    {
+            //        continue;
+            //    }
+            //    Console.WriteLine(Numbers[i]);
+            //}
 
 
             // Class impliement interface IEnummrable
 
-            foreach (int Number in Numbers)
-            {
-                Console.WriteLine(Number);
-            }
+            //foreach (int Number in Numbers)
+            //{
+            //    Console.WriteLine(Number);
+            //}
+            #endregion
+
+            #region While - Do While
+            //int Number;
+            //bool Flag;
+            //do
+            //{
+            //    Console.WriteLine("Enter Even Number ");
+            //    Flag = int.TryParse(Console.ReadLine(), out Number);
+
+            //} while (Number % 2 == 1 || Flag);
+
+            //Console.WriteLine($"{Number} is Even");
+
+            //int Number = 3;
+            //bool Flag = false;
+            //while (Number % 2 == 1 || Flag)
+            //{
+            //    Console.WriteLine("Enter Even Number ");
+            //    Flag = int.TryParse(Console.ReadLine(), out Number);
+            //}
+            //Console.WriteLine($"{Number} is Even");
             #endregion
         }
     }
