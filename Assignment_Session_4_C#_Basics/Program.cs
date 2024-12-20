@@ -518,45 +518,69 @@ namespace Assignment_Session_4_C__Basics
             //18- Write a program to create two multidimensional arrays of same size. Accept value from user
             //and store them in first array. Now copy all the elements of first array on second array and print second array.
 
-            Console.Write("Enter the number of rows: ");
-            int rows = int.Parse(Console.ReadLine());
+            //Console.Write("Enter the number of rows: ");
+            //int rows = int.Parse(Console.ReadLine());
 
-            Console.Write("Enter the number of columns: ");
-            int columns = int.Parse(Console.ReadLine());
+            //Console.Write("Enter the number of columns: ");
+            //int columns = int.Parse(Console.ReadLine());
 
-            // Declare two 2D arrays with the specified dimensions
-            int[,] array1 = new int[rows, columns];
-            int[,] array2 = new int[rows, columns];
+            //// Declare two 2D arrays with the specified dimensions
+            //int[,] array1 = new int[rows, columns];
+            //int[,] array2 = new int[rows, columns];
 
-            // Accept values from the user and store them in the first array
-            Console.WriteLine("Enter values for the first array:");
-            for (int i = 0; i < rows; i++)
+            //// Accept values from the user and store them in the first array
+            //Console.WriteLine("Enter values for the first array:");
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < columns; j++)
+            //    {
+            //        Console.Write($"Enter value for element ({i + 1},{j + 1}): ");
+            //        array1[i, j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+
+            //// Copy all elements from the first array to the second array using Array.Copy
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    // Copy the entire row from array1 to array2
+            //    Array.Copy(array1, i * columns, array2, i * columns, columns);
+            //}
+
+            //// Print the second array
+            //Console.WriteLine("\nSecond array after copying:");
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < columns; j++)
+            //    {
+            //        Console.Write(array2[i, j] + "\t");
+            //    }
+            //    Console.WriteLine(); // Move to the next row
+            //}
+
+            #endregion
+
+            #region Q19
+            //19- Write a Program to Print One Dimensional Array in Reverse Order
+
+            Console.Write("Enter the size of the array: ");
+            int size = int.Parse(Console.ReadLine());
+
+            int[] array = new int[size];
+
+            Console.WriteLine($"Enter {size} elements for the array:");
+            for (int i = 0; i < size; i++)
             {
-                for (int j = 0; j < columns; j++)
-                {
-                    Console.Write($"Enter value for element ({i + 1},{j + 1}): ");
-                    array1[i, j] = int.Parse(Console.ReadLine());
-                }
+                Console.Write($"Enter element {i + 1}: ");
+                array[i] = int.Parse(Console.ReadLine());
             }
 
-            // Copy all elements from the first array to the second array using Array.Copy
-            for (int i = 0; i < rows; i++)
-            {
-                // Copy the entire row from array1 to array2
-                Array.Copy(array1, i * columns, array2, i * columns, columns);
-            }
+            Array.Reverse(array);
 
-            // Print the second array
-            Console.WriteLine("\nSecond array after copying:");
-            for (int i = 0; i < rows; i++)
+            Console.WriteLine("Array in reverse order:");
+            foreach (int element in array)
             {
-                for (int j = 0; j < columns; j++)
-                {
-                    Console.Write(array2[i, j] + "\t");
-                }
-                Console.WriteLine(); // Move to the next row
+                Console.Write(element + " ");
             }
-
             #endregion
 
 
