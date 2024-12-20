@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Transactions;
 
 namespace Assignment_Session_4_C__Basics
 {
@@ -409,6 +410,34 @@ namespace Assignment_Session_4_C__Basics
             //{
             //    Console.WriteLine($"Element {entry.Key} appears {entry.Value} times.");
             //}
+            #endregion
+
+            #region Q15
+            //15- Write a program in C# Sharp to find maximum and minimum element in an array
+
+            //int[] Numbers = new int[5];
+
+            //int[] Numbers = new int[5] { 1, 2, 3, 4, 5 }; ;
+           
+            //Console.WriteLine("Enter Elements of Array");
+
+            //for (int i = 0; i < Numbers.Length; i++) {
+                
+            //        Numbers[i] = int.Parse(Console.ReadLine());
+                
+            //        }
+
+            //int Max = Numbers.Max();
+            //Console.WriteLine("Max of elements");
+
+            //Console.WriteLine(Max);
+
+            //int Min = Numbers.Min();
+            //Console.WriteLine("Min of elements");
+
+            //Console.WriteLine(Min);
+
+
             #endregion
 
 
