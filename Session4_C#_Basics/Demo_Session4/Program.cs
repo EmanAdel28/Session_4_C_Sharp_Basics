@@ -70,6 +70,54 @@
             //}
             //Console.WriteLine($"{Number} is Even");
             #endregion
+
+            #region String
+            // Class => Reference Type
+            // immutable Data Type [Vlue can not be Changed]
+            // Array Of Chars
+            // A H M E D
+
+            //string Name;
+            //Name = new string("Ahmed");
+
+            //Name = "Ahmed";
+
+            //string Name01 = "Ahmed";
+            //string Name02 = "Ali";
+
+            //Console.WriteLine(Name01);
+            //Console.WriteLine(Name01.GetHashCode());
+
+            //Console.WriteLine(Name02);
+            //Console.WriteLine(Name02.GetHashCode());
+
+            //Name02 = Name01;
+            //Console.WriteLine(Name01);
+            //Console.WriteLine(Name01.GetHashCode());
+
+            //Console.WriteLine(Name02);
+            //Console.WriteLine(Name02.GetHashCode());
+
+            //Name01 = "Mostafa";
+            //Console.WriteLine(Name01);
+            //Console.WriteLine(Name01.GetHashCode());
+
+            //Console.WriteLine(Name02);
+            //Console.WriteLine(Name02.GetHashCode());
+
+            //string Message = "Hello";
+
+            //Console.WriteLine(Message);
+            //Console.WriteLine(Message.GetHashCode());
+
+            //Message += "Route";
+
+            //Console.WriteLine(Message);
+            //Console.WriteLine(Message.GetHashCode());
+
+
+
+            #endregion
         }
     }
 }
