@@ -107,6 +107,9 @@ namespace Assignment_Session_4_C__Basics
             //Console.WriteLine(Power);
 
 
+
+            #endregion
+
             #region Q5
             //5- Write a program to allow the user to enter a string and print the REVERSE of it.
 
@@ -124,15 +127,13 @@ namespace Assignment_Session_4_C__Basics
 
             #endregion
 
-            #endregion
-
-            #region Q5
+            #region Q6
             //6- Write a program in C# Sharp to find prime numbers within a range of numbers.
 
             //int Number01;
             //int Number02;
             //bool Flag;
-            
+
 
 
             //do
@@ -169,6 +170,41 @@ namespace Assignment_Session_4_C__Basics
             //}
 
             #endregion
+
+            #region Q7
+            //7- . Write a program in C# Sharp to convert a decimal number into binary without using an array.
+
+            bool Flag;
+            int DecimalNumber;
+
+
+            do
+            {
+                Console.Write("Enter DecimalNumber ");
+                Flag = int.TryParse(Console.ReadLine(), out DecimalNumber);
+            } while (!Flag || DecimalNumber < 0);
+
+            string binaryResult = "";
+
+            if (DecimalNumber == 0)
+            {
+                binaryResult = "0";
+            }
+            else
+            {
+                while (DecimalNumber > 0)
+                {
+                    int remainder = DecimalNumber % 2;
+                    binaryResult = remainder + binaryResult; // Prepend the remainder to the result
+                    DecimalNumber /= 2;
+                }
+            }
+
+            Console.WriteLine($"Binary representation: {binaryResult}");
+
+            #endregion
+
+
         }
     }
 }
