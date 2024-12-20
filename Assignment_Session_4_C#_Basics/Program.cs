@@ -372,6 +372,45 @@ namespace Assignment_Session_4_C__Basics
             //}
             #endregion
 
+            #region Q14
+            //14- Write a program in C# Sharp to count the frequency of each element of an array.
+
+            //Console.Write("Enter the size of the array: ");
+            //int size = int.Parse(Console.ReadLine());
+
+            //// Declare the array and input its elements
+            //int[] array = new int[size];
+            //Console.WriteLine($"Enter {size} elements for the array:");
+            //for (int i = 0; i < size; i++)
+            //{
+            //    Console.Write($"Element {i + 1}: ");
+            //    array[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //// Use a dictionary to store the frequency of each element
+            //Dictionary<int, int> frequency = new Dictionary<int, int>();
+
+            //// Count the frequency of each element in the array
+            //foreach (int num in array)
+            //{
+            //    if (frequency.ContainsKey(num))
+            //    {
+            //        frequency[num]++;
+            //    }
+            //    else
+            //    {
+            //        frequency[num] = 1;
+            //    }
+            //}
+
+            //// Display the frequency of each element
+            //Console.WriteLine("Frequency of each element:");
+            //foreach (KeyValuePair<int, int> entry in frequency)
+            //{
+            //    Console.WriteLine($"Element {entry.Key} appears {entry.Value} times.");
+            //}
+            #endregion
+
 
         }
     }
