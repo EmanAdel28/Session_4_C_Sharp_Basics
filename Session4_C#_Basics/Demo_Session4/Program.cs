@@ -172,6 +172,50 @@ namespace Demo_Session4
             //Console.WriteLine(Numbers.Rank);
 
             #endregion
+
+            #region 2 D Array
+            int[,] Marks = new int[3, 5];
+
+            //Console.WriteLine(Marks.Length);
+            //Console.WriteLine(Marks.Rank);
+            //Console.WriteLine(Marks.GetLongLength(0));
+            //Console.WriteLine(Marks.GetLongLength(1));
+
+            //for(int i = 0; i< Marks.GetLongLength(0); i++)
+            //{
+            //    Console.WriteLine($"Enter Grades Student ({i + 1})");
+
+            //    for (int k = 0; k < Marks.GetLongLength(1))
+            //    {
+            //        bool Flag;
+            //        Console.WriteLine($"Enter Grades Subject ({k + 1})");
+            //        Flag = int.TryParse(Console.ReadLine(), out Marks[i, k]);
+
+            //        //if(Flag && Marks[i, k] >= 0)
+            //        //{
+            //        //    k++;
+            //        //}
+            //        k = Flag && Marks[i, k] >= 0 ? ++k : k;
+
+            //    }
+
+            //}
+
+            //for (int i = 0; i < Marks.GetLongLength(0); i++)
+            //{
+            //    Console.WriteLine($"Grades Student ({i + 1})");
+
+            //    for (int k = 0; k < Marks.GetLongLength(1); k++)
+            //    {
+            //        bool Flag;
+            //        Console.WriteLine($"Grades Subject ({k + 1})");
+            //        Console.WriteLine(Marks[i, k]);
+
+            //    }
+
+            //}
+
+            #endregion
         }
     }
 }
