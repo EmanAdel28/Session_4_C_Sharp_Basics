@@ -1,4 +1,6 @@
-﻿namespace Demo_Session4
+﻿using System.Text;
+
+namespace Demo_Session4
 {
     internal class Program
     {
@@ -114,6 +116,31 @@
 
             //Console.WriteLine(Message);
             //Console.WriteLine(Message.GetHashCode());
+
+
+
+            #endregion
+
+            #region StringBuilder
+            //StringBuilder Message;
+
+            //Message = new StringBuilder("Welcome");
+
+            //Console.WriteLine(Message);
+            //Console.WriteLine(Message.GetHashCode());
+
+            //Message.Append(" to Route");
+            //Message.AppendLine(" Eman");
+            //Message.Remove(0,7);
+            //Message.Insert(0,"Hello");
+
+            //Console.WriteLine();
+            //int Age = 10;
+            //string Name = "Ali";
+            //Message.AppendFormat("Name : {0} , Age : {1}", Name, Age);
+
+            //Console.WriteLine(Message);
+            
 
 
 
