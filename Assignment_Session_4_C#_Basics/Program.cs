@@ -327,6 +327,51 @@ namespace Assignment_Session_4_C__Basics
             //Console.WriteLine($"Sum of element = {Sum}");
             #endregion
 
+            #region Q13
+            //13- Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
+
+            //bool Flag;
+            //int n;
+
+
+            //do
+            //{
+            //    Console.WriteLine("Enter the lenght of array ");
+            //    Flag = int.TryParse(Console.ReadLine(), out n);
+
+            //} while(!Flag || n <0);
+
+            //int[] array1 = new int[n];
+            //int[] array2 = new int[n];
+            //Console.WriteLine("Enter elements for the first array:");
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.Write($"Element {i + 1}: ");
+            //    array1[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //// Input elements for the second array
+            //Console.WriteLine("Enter elements for the second array:");
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.Write($"Element {i + 1}: ");
+            //    array2[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int[] mergedArray = new int[2 * n];
+            //Array.Copy(array1, 0, mergedArray, 0, n);  // Copy first array to mergedArray
+            //Array.Copy(array2, 0, mergedArray, n, n);
+
+            //Array.Sort(mergedArray);
+
+            //// Display the sorted merged array
+            //Console.WriteLine("The merged and sorted array is:");
+            //foreach (int element in mergedArray)
+            //{
+            //    Console.Write(element + " ");
+            //}
+            #endregion
+
 
         }
     }
