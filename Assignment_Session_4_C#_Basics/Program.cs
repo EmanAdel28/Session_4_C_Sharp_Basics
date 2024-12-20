@@ -265,6 +265,26 @@ namespace Assignment_Session_4_C__Basics
             //Console.WriteLine($"Extracted substring: {substring}");
             #endregion
 
+            #region Q10
+            //10- Write C# program that take two string variables and print them as one variable 
+
+            //String String01;
+            //String String02;
+            //String Result;
+
+            //Console.WriteLine("input String01 ");
+            //String01 = Console.ReadLine();
+
+            //Console.WriteLine("input String02 ");
+            //String02 = Console.ReadLine();
+
+            //Result = $"{String01} {String02}";
+
+            
+            //Console.WriteLine($"Result is: {Result}");
+
+            #endregion
+
 
         }
     }
