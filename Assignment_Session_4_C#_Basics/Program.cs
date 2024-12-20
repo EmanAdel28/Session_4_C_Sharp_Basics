@@ -466,7 +466,7 @@ namespace Assignment_Session_4_C__Basics
 
             #region Q17
             //17-. Consider an Array of Integer values with size N, having values as    
- 
+
 
             //Console.Write("Enter the size of the array: ");
             //int size = int.Parse(Console.ReadLine());
@@ -512,6 +512,51 @@ namespace Assignment_Session_4_C__Basics
             //{
             //    Console.WriteLine("No two equal cells were found.");
             //}
+            #endregion
+
+            #region Q18
+            //18- Write a program to create two multidimensional arrays of same size. Accept value from user
+            //and store them in first array. Now copy all the elements of first array on second array and print second array.
+
+            Console.Write("Enter the number of rows: ");
+            int rows = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter the number of columns: ");
+            int columns = int.Parse(Console.ReadLine());
+
+            // Declare two 2D arrays with the specified dimensions
+            int[,] array1 = new int[rows, columns];
+            int[,] array2 = new int[rows, columns];
+
+            // Accept values from the user and store them in the first array
+            Console.WriteLine("Enter values for the first array:");
+            for (int i = 0; i < rows; i++)
+            {
+                for (int j = 0; j < columns; j++)
+                {
+                    Console.Write($"Enter value for element ({i + 1},{j + 1}): ");
+                    array1[i, j] = int.Parse(Console.ReadLine());
+                }
+            }
+
+            // Copy all elements from the first array to the second array using Array.Copy
+            for (int i = 0; i < rows; i++)
+            {
+                // Copy the entire row from array1 to array2
+                Array.Copy(array1, i * columns, array2, i * columns, columns);
+            }
+
+            // Print the second array
+            Console.WriteLine("\nSecond array after copying:");
+            for (int i = 0; i < rows; i++)
+            {
+                for (int j = 0; j < columns; j++)
+                {
+                    Console.Write(array2[i, j] + "\t");
+                }
+                Console.WriteLine(); // Move to the next row
+            }
+
             #endregion
 
 
