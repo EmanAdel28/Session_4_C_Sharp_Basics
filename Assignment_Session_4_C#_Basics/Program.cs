@@ -7,19 +7,45 @@
             #region Q1
             //1- Write a program that allows the user to insert an integer then print all numbers between 1 to that number.
 
+            //int Number;
+            //bool Flag;
+            //Console.Write("Please , Enter Number ");
+            //Flag = int.TryParse(Console.ReadLine(), out Number);
+
+            //Console.WriteLine($"Numbers Between 1 and {Number}");
+
+            //if (Flag && Number > 0) 
+            //{
+            //    for (int i = 1; i <= Number; i++) 
+            //    {
+            //    Console.WriteLine(i);
+            //    }
+            //}
+
+            #endregion
+
+            #region Q2
+            //2- Write a program that allows the user to insert an integer then print a multiplication table up to 12.
+
             int Number;
             bool Flag;
-            Console.Write("Please , Enter Number ");
+            Console.Write("Enter Number ");
             Flag = int.TryParse(Console.ReadLine(), out Number);
 
-            Console.WriteLine($"Numbers Between 1 and {Number}");
 
-            if (Flag && Number > 0) 
+
+            do
             {
-                for (int i = 1; i <= Number; i++) 
-                {
-                Console.WriteLine(i);
-                }
+                Console.Write("Enter Number");
+                Flag = int.TryParse(Console.ReadLine(), out Number);
+            }while (!Flag || Number< 0 );
+
+            Console.WriteLine($"Multiplication table of {Number}");
+
+            for (int i = 1; i <= 12; i++)
+            {
+                Console.WriteLine(i * Number);
+
             }
 
             #endregion
