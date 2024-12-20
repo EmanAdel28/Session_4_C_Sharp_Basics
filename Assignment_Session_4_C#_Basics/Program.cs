@@ -83,7 +83,7 @@
             //int Number02;
             //bool Flag;
             //int Power = 1;
-     
+
 
             //do
             //{
@@ -105,7 +105,22 @@
             //Console.WriteLine(Power);
 
 
-            //Console.WriteLine(Power);
+            #region Q5
+            //5- Write a program to allow the user to enter a string and print the REVERSE of it.
+
+            Console.Write("Enter a string: ");
+            string input = Console.ReadLine();
+
+            // Reverse the string using a for loop
+            string reversed = "";
+            for (int i = input.Length - 1; i >= 0; i--)
+            {
+                reversed += input[i];
+            }
+
+            Console.WriteLine(reversed);
+
+            #endregion
 
             #endregion
         }
