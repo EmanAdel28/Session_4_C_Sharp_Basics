@@ -16,9 +16,36 @@
             //Console.WriteLine(9);
             //Console.WriteLine(10);
 
-            for(int i = 1 ; i <= 10; i++)
+            //for(int i = 1 ; i <= 10; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            #endregion
+
+            #region For - Foreach
+            int[] Numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 , 10 };
+
+            for (int i = 0; i < Numbers.Length; i++)
             {
-                Console.WriteLine(i);
+
+                //if (Numbers[i] == 5)
+                //{
+                //    break;
+                //}
+
+                if (Numbers[i] == 5)
+                {
+                    continue;
+                }
+                Console.WriteLine(Numbers[i]);
+            }
+
+
+            // Class impliement interface IEnummrable
+
+            foreach (int Number in Numbers)
+            {
+                Console.WriteLine(Number);
             }
             #endregion
         }
