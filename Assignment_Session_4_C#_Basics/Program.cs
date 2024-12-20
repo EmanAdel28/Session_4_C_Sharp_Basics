@@ -208,34 +208,61 @@ namespace Assignment_Session_4_C__Basics
             // 8- . Write a program that prints an identity matrix using for loop, in other words takes a value n
             // //from the user and shows the identity table of size n * n.
 
-            bool Flag;
-            int Number;
+            //bool Flag;
+            //int Number;
 
 
-            do
-            {
-                Console.Write("Enter Number ");
-                Flag = int.TryParse(Console.ReadLine(), out Number);
-            } while (!Flag || Number < 0);
+            //do
+            //{
+            //    Console.Write("Enter Number ");
+            //    Flag = int.TryParse(Console.ReadLine(), out Number);
+            //} while (!Flag || Number < 0);
 
-            Console.Write($"Matrix {Number}*{Number} ");
+            //Console.Write($"Matrix {Number}*{Number} ");
 
-            for(int i = 0; i < Number; i++)
-            {
-                for (int j = 0; j < Number; j++)
-                {
+            //for(int i = 0; i < Number; i++)
+            //{
+            //    for (int j = 0; j < Number; j++)
+            //    {
 
-                    if (i == j)
-                    {
-                        Console.Write("1 ");
-                    }
-                    else
-                    {
-                        Console.Write("0 ");
-                    }
-                }
-                }
+            //        if (i == j)
+            //        {
+            //            Console.Write("1 ");
+            //        }
+            //        else
+            //        {
+            //            Console.Write("0 ");
+            //        }
+            //    }
+            //    }
 
+            #endregion
+
+            #region Q9
+            //9- Write C# program that Extract a substring from a given string.
+
+            //string inputString;
+            //int StartIndex;
+            //int lenght;
+            //bool Flag;
+
+
+            //Console.WriteLine("input String ");
+            //inputString = Console.ReadLine();
+            //do
+            //{
+            //    Console.Write("Enter StartIndex ");
+            //    Flag = int.TryParse(Console.ReadLine(), out StartIndex);
+
+            //    Console.Write("Enter lenght  ");
+            //    Flag = int.TryParse(Console.ReadLine(), out lenght);
+
+            //} while (!Flag || StartIndex < 0 || lenght < 0 );
+
+            //string substring = inputString.Substring(StartIndex, lenght);
+
+            //// Display the result
+            //Console.WriteLine($"Extracted substring: {substring}");
             #endregion
 
 
