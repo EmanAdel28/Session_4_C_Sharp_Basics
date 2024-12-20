@@ -280,9 +280,42 @@ namespace Assignment_Session_4_C__Basics
 
             //Result = $"{String01} {String02}";
 
-            
+
             //Console.WriteLine($"Result is: {Result}");
 
+            #endregion
+
+            #region Q11
+            //11- . Write a program that prints an identity matrix using for loop, in other words takes a value n
+            //from the user and shows the identity table of size n * n.
+
+            //bool Flag;
+            //int Number;
+
+
+            //do
+            //{
+            //    Console.Write("Enter Number ");
+            //    Flag = int.TryParse(Console.ReadLine(), out Number);
+            //} while (!Flag || Number < 0);
+
+            //Console.Write($"Matrix {Number}*{Number} ");
+
+            //for(int i = 0; i < Number; i++)
+            //{
+            //    for (int j = 0; j < Number; j++)
+            //    {
+
+            //        if (i == j)
+            //        {
+            //            Console.Write("1 ");
+            //        }
+            //        else
+            //        {
+            //            Console.Write("0 ");
+            //        }
+            //    }
+            //    }
             #endregion
 
 
