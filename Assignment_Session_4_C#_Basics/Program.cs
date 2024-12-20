@@ -318,6 +318,15 @@ namespace Assignment_Session_4_C__Basics
             //    }
             #endregion
 
+            #region Q12
+            //12- Write a program in C# Sharp to find the sum of all elements of the array.
+
+            //int[] numbers = { 10, 20, 30, 40, 50 };
+
+            //int Sum  = numbers.Sum();
+            //Console.WriteLine($"Sum of element = {Sum}");
+            #endregion
+
 
         }
     }
