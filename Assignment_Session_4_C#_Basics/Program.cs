@@ -1,4 +1,6 @@
-﻿namespace Assignment_Session_4_C__Basics
+﻿using System;
+
+namespace Assignment_Session_4_C__Basics
 {
     internal class Program
     {
@@ -108,19 +110,63 @@
             #region Q5
             //5- Write a program to allow the user to enter a string and print the REVERSE of it.
 
-            Console.Write("Enter a string: ");
-            string input = Console.ReadLine();
+            //Console.Write("Enter a string: ");
+            //string input = Console.ReadLine();
 
-            // Reverse the string using a for loop
-            string reversed = "";
-            for (int i = input.Length - 1; i >= 0; i--)
-            {
-                reversed += input[i];
-            }
 
-            Console.WriteLine(reversed);
+            //string reversed = "";
+            //for (int i = input.Length - 1; i >= 0; i--)
+            //{
+            //    reversed += input[i];
+            //}
+
+            //Console.WriteLine(reversed);
 
             #endregion
+
+            #endregion
+
+            #region Q5
+            //6- Write a program in C# Sharp to find prime numbers within a range of numbers.
+
+            //int Number01;
+            //int Number02;
+            //bool Flag;
+            
+
+
+            //do
+            //{
+            //    Console.Write("Enter Number 1 ");
+            //    Flag = int.TryParse(Console.ReadLine(), out Number01);
+
+            //    Console.Write("Enter Number 2 ");
+            //    Flag = int.TryParse(Console.ReadLine(), out Number02);
+
+            //} while (!Flag || Number01 < 0 || Number02 < 0);
+
+            //for (int i = Number01; i <= Number02; i++)
+            //{
+            //    if (i < 2)
+            //        continue; // Skip numbers less than 2 as they are not prime
+
+            //    bool isPrime = true;
+
+            //    // Check if the current number is prime
+            //    for (int k = 2; k <= Math.Sqrt(i); k++)
+            //    {
+            //        if (i % k == 0)
+            //        {
+            //            isPrime = false;
+            //            break; // Exit the loop if a divisor is found
+            //        }
+            //    }
+
+            //    if (isPrime)
+            //    {
+            //        Console.Write(i + " ");
+            //    }
+            //}
 
             #endregion
         }
