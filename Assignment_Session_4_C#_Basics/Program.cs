@@ -174,33 +174,67 @@ namespace Assignment_Session_4_C__Basics
             #region Q7
             //7- . Write a program in C# Sharp to convert a decimal number into binary without using an array.
 
+            //bool Flag;
+            //int DecimalNumber;
+
+
+            //do
+            //{
+            //    Console.Write("Enter DecimalNumber ");
+            //    Flag = int.TryParse(Console.ReadLine(), out DecimalNumber);
+            //} while (!Flag || DecimalNumber < 0);
+
+            //string binaryResult = "";
+
+            //if (DecimalNumber == 0)
+            //{
+            //    binaryResult = "0";
+            //}
+            //else
+            //{
+            //    while (DecimalNumber > 0)
+            //    {
+            //        int remainder = DecimalNumber % 2;
+            //        binaryResult = remainder + binaryResult; // Prepend the remainder to the result
+            //        DecimalNumber /= 2;
+            //    }
+            //}
+
+            //Console.WriteLine($"Binary representation: {binaryResult}");
+
+            #endregion
+
+            #region Q8
+            // 8- . Write a program that prints an identity matrix using for loop, in other words takes a value n
+            // //from the user and shows the identity table of size n * n.
+
             bool Flag;
-            int DecimalNumber;
+            int Number;
 
 
             do
             {
-                Console.Write("Enter DecimalNumber ");
-                Flag = int.TryParse(Console.ReadLine(), out DecimalNumber);
-            } while (!Flag || DecimalNumber < 0);
+                Console.Write("Enter Number ");
+                Flag = int.TryParse(Console.ReadLine(), out Number);
+            } while (!Flag || Number < 0);
 
-            string binaryResult = "";
+            Console.Write($"Matrix {Number}*{Number} ");
 
-            if (DecimalNumber == 0)
+            for(int i = 0; i < Number; i++)
             {
-                binaryResult = "0";
-            }
-            else
-            {
-                while (DecimalNumber > 0)
+                for (int j = 0; j < Number; j++)
                 {
-                    int remainder = DecimalNumber % 2;
-                    binaryResult = remainder + binaryResult; // Prepend the remainder to the result
-                    DecimalNumber /= 2;
-                }
-            }
 
-            Console.WriteLine($"Binary representation: {binaryResult}");
+                    if (i == j)
+                    {
+                        Console.Write("1 ");
+                    }
+                    else
+                    {
+                        Console.Write("0 ");
+                    }
+                }
+                }
 
             #endregion
 
