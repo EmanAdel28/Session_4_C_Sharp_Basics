@@ -464,6 +464,56 @@ namespace Assignment_Session_4_C__Basics
             //Console.WriteLine($"The second largest element is: {SecondLargest}");
             #endregion
 
+            #region Q17
+            //17-. Consider an Array of Integer values with size N, having values as    
+ 
+
+            //Console.Write("Enter the size of the array: ");
+            //int size = int.Parse(Console.ReadLine());
+
+            //// Declare the array and input its elements
+            //int[] array = new int[size];
+            //Console.WriteLine($"Enter {size} elements for the array:");
+            //for (int i = 0; i < size; i++)
+            //{
+            //    Console.Write($"Element {i + 1}: ");
+            //    array[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //// Dictionary to store the first occurrence of each element
+            //Dictionary<int, int> firstOccurrence = new Dictionary<int, int>();
+            //int maxDistance = -1;  // Store the longest distance
+
+            //// Iterate through the array and calculate the distance
+            //for (int i = 0; i < size; i++)
+            //{
+            //    if (firstOccurrence.ContainsKey(array[i]))
+            //    {
+            //        // Calculate the distance between first occurrence and current index
+            //        int distance = i - firstOccurrence[array[i]] - 1;
+            //        if (distance > maxDistance)
+            //        {
+            //            maxDistance = distance;
+            //        }
+            //    }
+            //    else
+            //    {
+            //        // Store the first occurrence of the element
+            //        firstOccurrence[array[i]] = i;
+            //    }
+            //}
+
+            //// Output the result
+            //if (maxDistance != -1)
+            //{
+            //    Console.WriteLine($"The longest distance between two equal cells is: {maxDistance}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No two equal cells were found.");
+            //}
+            #endregion
+
 
         }
     }
