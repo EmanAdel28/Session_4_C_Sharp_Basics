@@ -207,7 +207,7 @@ namespace Demo_Session4
 
             //    for (int k = 0; k < Marks.GetLongLength(1); k++)
             //    {
-            //        bool Flag;
+            //        
             //        Console.WriteLine($"Grades Subject ({k + 1})");
             //        Console.WriteLine(Marks[i, k]);
 
@@ -216,6 +216,28 @@ namespace Demo_Session4
             //}
 
             #endregion
+
+            #region Judged Array
+
+            int[][] Number = new int[3][];
+
+            Number[0] = new int[3] { 1, 2, 3 };
+            Number[0] = new int[2] { 4, 5 };
+            Number[0] = new int[1] { 6 };
+
+            for (int i = 0; i < Number.Length; i++)
+            {
+
+
+                for (int k = 0; k < Number[i].Length; k++)
+                {
+
+
+                    Console.WriteLine(Number[i][k]);
+
+                }
+                #endregion
+            }
         }
     }
 }
